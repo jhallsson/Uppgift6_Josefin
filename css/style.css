@@ -1,20 +1,27 @@
 body {
   text-align: center;
   font-family: Helvetica;
-  background-color: #fff0bc;
+  background-color: #001157;
+  /* #fff0bc */
   margin: 0 10% 0;
   color: white;
   line-height: 1.6;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
+}
+
+a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
 }
 
 header {
   position: sticky;
   top: 0;
-  background-color: #0469ef;
+  background-color: #005bd3;
   font-family: "Press Start 2P";
   padding: 15px;
 }
@@ -28,8 +35,7 @@ section {
 
 footer {
   height: 50px;
-  background-color: #0469ef;
-  color: white;
+  background-color: #005bd3;
   font-weight: 100;
   padding: 2%;
 }
@@ -39,21 +45,20 @@ footer {
 }
 
 .gold {
-  color: #ba9c39;
+  color: #dba224;
   font-family: "Press Start 2P";
   padding: 5%;
 }
 
 .links {
-  background-color: #e33d43;
-  padding: 15px 0px;
+  background-color: #e70a0a;
+  padding: 20px 0px;
   width: 500px;
-  margin: 5% auto;
+  margin: 10% auto;
   border-radius: 10px;
 }
 
-a {
-  margin: 15px;
-  text-decoration: none;
-  color: white;
+.ring {
+  width: 80px;
+  length: 80px;
 }
