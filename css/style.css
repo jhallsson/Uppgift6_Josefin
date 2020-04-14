@@ -3,33 +3,43 @@
 ●För​ och bakgrundsfärg skall ha relevans till filmen (Kolla på posters)
 ●Länklistan skall vara horisontell
 ●Footern skall vara 50px hög och ha annan bakgrundsfärg än resten av sidan. */
-body{
-text-align: center;
+body {
+  /* text-align: center; */
   font-family: Helvetica;
   background-color: #ccdcff;
-  color:#3c4a6a;
-  margin:0 15% 0;
+  color: #3c4a6a;
+  margin: 0 10% 0;
 }
-header{
+
+header {
+  position: sticky;
+  top: 0;
   background-color: #0469ef;
   font-family: "Press Start 2P";
   color: white;
-  padding:3% 5%;
-
+  padding: 5% 15%;
 }
 
-footer{
-  height: 50px;
-    background-color: #0469ef;
-      color: white;
-  font-size: 10px;
-padding:5% auto;
-margin-bottom: 0;
-}
-section{
+section {
   background-color: white;
-    padding:3% 15% ;
+  padding: 3% 15%;
 }
-.info{
 
+footer {
+  height: 50px;
+  background-color: #0469ef;
+  color: white;
+  font-size: 10px;
+  padding: 5% auto;
+  margin-bottom: 0;
 }
+
+#logo-img {
+  display: inline;
+  /* position: absolute; */
+  width: 60px;
+  height: 60px;
+  /* margin:10px; */
+}
+
+.info {}
